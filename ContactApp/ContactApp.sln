@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.RabbitMq", "EventB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactApp.ApiGateway", "ApiGateway\ContactApp.ApiGateway\ContactApp.ApiGateway.csproj", "{B328CF17-8C6D-4E24-AD47-C66169B628AC}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C8EEA15A-5710-455B-B38F-8C9CAE326D35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{B328CF17-8C6D-4E24-AD47-C66169B628AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B328CF17-8C6D-4E24-AD47-C66169B628AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B328CF17-8C6D-4E24-AD47-C66169B628AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8EEA15A-5710-455B-B38F-8C9CAE326D35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8EEA15A-5710-455B-B38F-8C9CAE326D35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8EEA15A-5710-455B-B38F-8C9CAE326D35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8EEA15A-5710-455B-B38F-8C9CAE326D35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  contactapp.apigateway:
+    image: ${DOCKER_REGISTRY-}contactappapigateway
+    build:
+      context: .
+      dockerfile: ApiGateway/ContactApp.ApiGateway/Dockerfile
