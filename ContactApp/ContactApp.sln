@@ -21,9 +21,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportService.API", "Servic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportService.Test", "Services\ReportService\ReportService.Test\ReportService.Test.csproj", "{5B7C4C3D-FC49-4374-8718-141AF4E5AA6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactService.Core", "Services\ContactService\ContactService.Core\ContactService.Core.csproj", "{BB686112-1A1C-401F-B4ED-356CB34DC5E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactService.Core", "Services\ContactService\ContactService.Core\ContactService.Core.csproj", "{BB686112-1A1C-401F-B4ED-356CB34DC5E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportService.Core", "Services\ReportService\ReportService.Core\ReportService.Core.csproj", "{0A2FEDF4-296A-4A4B-B9FA-59897F56782B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportService.Core", "Services\ReportService\ReportService.Core\ReportService.Core.csproj", "{0A2FEDF4-296A-4A4B-B9FA-59897F56782B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Core", "EventBus\EventBus.Core\EventBus.Core.csproj", "{7DBD831A-63DA-4CA1-BA1B-55EE594B45C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.RabbitMq", "EventBus\EventBus.RabbitMq\EventBus.RabbitMq.csproj", "{867C91FC-4527-4B5D-BCE3-B641814BA489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactApp.ApiGateway", "ApiGateway\ContactApp.ApiGateway\ContactApp.ApiGateway.csproj", "{B328CF17-8C6D-4E24-AD47-C66169B628AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +61,18 @@ Global
 		{0A2FEDF4-296A-4A4B-B9FA-59897F56782B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A2FEDF4-296A-4A4B-B9FA-59897F56782B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A2FEDF4-296A-4A4B-B9FA-59897F56782B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DBD831A-63DA-4CA1-BA1B-55EE594B45C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DBD831A-63DA-4CA1-BA1B-55EE594B45C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DBD831A-63DA-4CA1-BA1B-55EE594B45C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DBD831A-63DA-4CA1-BA1B-55EE594B45C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{867C91FC-4527-4B5D-BCE3-B641814BA489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867C91FC-4527-4B5D-BCE3-B641814BA489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867C91FC-4527-4B5D-BCE3-B641814BA489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867C91FC-4527-4B5D-BCE3-B641814BA489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B328CF17-8C6D-4E24-AD47-C66169B628AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B328CF17-8C6D-4E24-AD47-C66169B628AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B328CF17-8C6D-4E24-AD47-C66169B628AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B328CF17-8C6D-4E24-AD47-C66169B628AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +86,9 @@ Global
 		{5B7C4C3D-FC49-4374-8718-141AF4E5AA6E} = {407ABB0C-D683-48A9-AA98-75D6D37BB271}
 		{BB686112-1A1C-401F-B4ED-356CB34DC5E7} = {EE322150-4CD9-4E84-8DF0-AB945D6519A2}
 		{0A2FEDF4-296A-4A4B-B9FA-59897F56782B} = {407ABB0C-D683-48A9-AA98-75D6D37BB271}
+		{7DBD831A-63DA-4CA1-BA1B-55EE594B45C9} = {71197843-143F-492C-BCD5-5FEA89E5E752}
+		{867C91FC-4527-4B5D-BCE3-B641814BA489} = {71197843-143F-492C-BCD5-5FEA89E5E752}
+		{B328CF17-8C6D-4E24-AD47-C66169B628AC} = {B5E6C234-F897-496F-A4D0-F8EB05D6C3D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F470B1A6-BAA5-4447-A5C9-6BE2CE806551}
